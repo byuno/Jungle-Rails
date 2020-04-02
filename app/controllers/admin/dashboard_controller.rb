@@ -6,6 +6,10 @@ class Admin::DashboardController < ApplicationController
   def index
     @articles = Article.all
   end
+
   def show
+    @product = Product.count
+    @category = Category.count
   end
+
 end
