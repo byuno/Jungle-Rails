@@ -17,8 +17,6 @@ RSpec.feature "Visitor adds to cart", type: :feature, js: true do
   scenario "They see cart amount go up by 1" do
     visit root_path
     click_button 'Add'
-    click_button 'Add'
-    click_button 'Add'
 
 
 
